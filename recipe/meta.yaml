@@ -71,6 +71,7 @@ about:
 extra:
   recipe-maintainers:
     - jameslamb
+    - austin3dickey
     - conda-forge/r
 
 # Package: uptasticsearch
