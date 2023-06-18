@@ -1,11 +1,11 @@
-About r-uptasticsearch
-======================
+About r-uptasticsearch-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-uptasticsearch-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/uptake/uptasticsearch
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-uptasticsearch-feedstock/blob/main/LICENSE.txt)
 
 Summary: 'Elasticsearch' is an open-source, distributed, document-based datastore (<https://www.elastic.co/products/elasticsearch>). It provides an 'HTTP' 'API' for querying the database and extracting datasets, but that 'API' was not designed for common data science workflows like pulling large batches of records and normalizing those documents into a data frame that can be used as a training dataset for statistical models. 'uptasticsearch' provides an interface for 'Elasticsearch' that is explicitly designed to make these data science workflows easy and fun.
 
