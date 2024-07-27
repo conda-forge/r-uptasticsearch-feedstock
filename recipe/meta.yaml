@@ -1,6 +1,5 @@
 {% set version = '0.4.0' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-uptasticsearch
@@ -13,8 +12,7 @@ source:
   sha256: 4aa4ed7b282f282b47f0425c44e1fe6c0947af56e475a02bf9970822db1f4ea7
 
 build:
-  merge_build_host: True  # [win]
-  number: 4
+  number: 5
   noarch: generic
 
   rpaths:
