@@ -1,4 +1,4 @@
-{% set version = '0.4.0' %}
+{% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/uptasticsearch_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/uptasticsearch/uptasticsearch_{{ version }}.tar.gz
-  sha256: 4aa4ed7b282f282b47f0425c44e1fe6c0947af56e475a02bf9970822db1f4ea7
+  sha256: 4d936fbe3d2e1b2d7850b70b07928dade43c41b3357b3f217efcd9c3802e2762
 
 build:
-  number: 5
+  number: 0
   noarch: generic
 
   rpaths:
@@ -53,13 +53,8 @@ test:
 about:
   home: https://github.com/uptake/uptasticsearch
   license: BSD-3-Clause
-  summary: '''Elasticsearch'' is an open-source, distributed, document-based datastore (<https://www.elastic.co/products/elasticsearch>).
-    It provides an ''HTTP'' ''API'' for querying the database and extracting datasets,
-    but that ''API'' was not designed for common data science workflows like pulling
-    large batches of records and normalizing those documents into a data frame that
-    can be used as a training dataset for statistical models. ''uptasticsearch'' provides
-    an interface for ''Elasticsearch'' that is explicitly designed to make these data
-    science workflows easy and fun.'
+  summary: '''Elasticsearch'' is an open-source, distributed, document-based datastore (<https://www.elastic.co/products/elasticsearch>). It provides an ''HTTP'' ''API'' for querying the database and extracting datasets, but that ''API'' was not designed for common data science workflows like pulling large batches of records
+    and normalizing those documents into a data frame that can be used as a training dataset for statistical models. ''uptasticsearch'' provides an interface for ''Elasticsearch'' that is explicitly designed to make these data science workflows easy and fun.'
 
   license_family: BSD
   license_file:
