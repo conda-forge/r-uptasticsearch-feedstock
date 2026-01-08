@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/uptasticsearch_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/uptasticsearch/uptasticsearch_{{ version }}.tar.gz
-  sha256: 4d936fbe3d2e1b2d7850b70b07928dade43c41b3357b3f217efcd9c3802e2762
+  sha256: aa9d728060685cc4093ebaec70ee29e633af64894385ada126840264fc9779a3
 
 build:
-  number: 2
+  number: 0
   noarch: generic
 
   rpaths:
