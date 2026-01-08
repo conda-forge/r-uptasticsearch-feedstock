@@ -12,7 +12,7 @@ source:
   sha256: aa9d728060685cc4093ebaec70ee29e633af64894385ada126840264fc9779a3
 
 build:
-  number: 0
+  number: 1
   noarch: generic
 
   rpaths:
@@ -27,7 +27,6 @@ requirements:
     - r-base >=3.3.0
     - r-curl
     - r-data.table
-    - r-futile.logger
     - r-jsonlite
     - r-purrr
     - r-stringr
@@ -36,7 +35,6 @@ requirements:
     - r-base >=3.3.0
     - r-curl
     - r-data.table
-    - r-futile.logger
     - r-jsonlite
     - r-purrr
     - r-stringr
